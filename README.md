@@ -19,7 +19,7 @@ Learn Triton to deploy AI model
     <tr>
         <td rowspan="2">Triton server 详解</td> 
         <td>请求响应管理</td> 
-        <td><a href="https://github.com/noil-lion/TRITON_LEARN/blob/main/note/Triton%E7%9A%84%E6%8E%A8%E7%90%86%E8%AF%B7%E6%B1%82%E5%93%8D%E5%BA%94%E7%AE%A1%E7%90%86.md>Start</a></td> 
+        <td><a href="https://github.com/noil-lion/TRITON_LEARN/blob/main/note/Triton%E7%9A%84%E6%8E%A8%E7%90%86%E8%AF%B7%E6%B1%82%E5%93%8D%E5%BA%94%E7%AE%A1%E7%90%86.md">Start</a></td> 
    </tr>
    
     <tr>
