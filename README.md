@@ -38,5 +38,14 @@ Learn Triton to deploy AI model
         <td>配置优化和分析</td>
         <td><a href="https://github.com/noil-lion/TRITON_LEARN/blob/main/note/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90%E5%99%A8%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%E4%BC%98%E5%8C%96.md">Start</a></td>    
     </tr>
+    <tr>
+        <td rowspan="2">Triton 模型部署实例</td> 
+        <td>Triton server环境构建</td> 
+        <td><a href="https://github.com/noil-lion/TRITON_LEARN/blob/main/demoV1/DOCKER_COMPOSE/docker%E5%AE%B9%E5%99%A8%E6%9C%8D%E5%8A%A1%E6%9E%84%E5%BB%BA.md">Start</a></td> 
+   </tr>
+   <tr>
+        <td>-</td>
+        <td><a href="-">Start</a></td>    
+    </tr>
     
 </table>
