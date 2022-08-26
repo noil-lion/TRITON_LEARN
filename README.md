@@ -45,7 +45,7 @@ Learn Triton to deploy AI model
    </tr>
    <tr>
         <td>-</td>
-        <td><a href="-">Start</a></td>    
+        <td><a href="">Start</a></td>    
     </tr>
     
 </table>
