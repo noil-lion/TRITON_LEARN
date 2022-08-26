@@ -10,7 +10,7 @@ Learn Triton to deploy AI model
     <tr>
         <td rowspan="2">Triton初探</td>    
   		 <td>Triton概述及快速上手</td> 
-        <td><a href="https://github.com/noil-lion/TRITON_LEARN/blob/main/note/Triton%E6%A6%82%E8%BF%B0.md"></a>Start</td> 
+        <td><a href="https://github.com/noil-lion/TRITON_LEARN/blob/main/note/Triton%E6%A6%82%E8%BF%B0.md">Start</a></td> 
     </tr>
     <tr>
         <td>模型仓库构建</td>
