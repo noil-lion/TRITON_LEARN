@@ -44,7 +44,7 @@ Learn Triton to deploy AI model
         <td><a href="https://github.com/noil-lion/TRITON_LEARN/blob/main/demoV1/DOCKER_COMPOSE/docker%E5%AE%B9%E5%99%A8%E6%9C%8D%E5%8A%A1%E6%9E%84%E5%BB%BA.md">Start</a></td> 
    </tr>
    <tr>
-        <td>demohttps://github.com/noil-lion/TRITON_LEARN/tree/main/demoV1</td>
+        <td>demoV1</td>
         <td><a href="https://github.com/noil-lion/TRITON_LEARN/tree/main/demoV1">Start</a></td>    
     </tr>
     
