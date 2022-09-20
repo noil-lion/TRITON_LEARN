@@ -1,0 +1,37 @@
+platform: "onnxruntime_onnx"    
+max_batch_size: 1            
+input [
+  {
+    name: "input"
+    data_type: TYPE_FP32
+    dims: [4, 192, 160 ]
+  }
+]
+output [
+  {
+    name: "output"
+    data_type: TYPE_FP32
+    dims: [4, 192, 160 ]
+  },
+  {
+    name: "170"
+    data_type: TYPE_FP32
+    dims: [4, 96, 80 ]
+  },
+  {
+    name: "161"
+    data_type: TYPE_FP32
+    dims: [4, 48, 40 ]
+  },
+  {
+    name: "152"
+    data_type: TYPE_FP32
+    dims: [4, 24, 20 ]
+  },
+  {
+    name: "143"
+    data_type: TYPE_FP32
+    dims: [4, 12, 10 ]
+  }
+]
+dynamic_batching { }
