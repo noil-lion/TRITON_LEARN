@@ -6,18 +6,18 @@ BraTS全名是Brain Tumor Segmentation，即脑部肿瘤分割。世界卫生组
 __挑战与困难__   
 肿瘤几乎可以以任何形状和大小出现在不同的位置，对比度差，并且肿瘤的强度值可能与健康的脑组织的强度值重叠，肿瘤异质。  
 
-Based:   
-CUDA：11.6;  
-OS: Ubuntu 20.04;  
-EDITOR: VSCode 1.71.1;
-Docker: 20.10.17;
-OS：20.4.1-Ubuntu;
-GPU：NVIDIA A100-PCIE-40GB;
-CPU：Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz;
-Repository: 
-          nvcr.io/nvidia/tritonserver-22.04-py3;
-          nvcr.io/nvidia/tritonserver-22.04-py3-sdk; 
-          nvcr.io/nvidia/tensorrt-22.04-py3;
+Based:    
+CUDA：11.6;    
+OS: Ubuntu 20.04;    
+EDITOR: VSCode 1.71.1;  
+Docker: 20.10.17;  
+OS：20.4.1-Ubuntu;  
+GPU：NVIDIA A100-PCIE-40GB;  
+CPU：Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz;  
+Repository:   
+          nvcr.io/nvidia/tritonserver-22.04-py3;  
+          nvcr.io/nvidia/tritonserver-22.04-py3-sdk;   
+          nvcr.io/nvidia/tensorrt-22.04-py3;  
 
 Requirements:   
 * GPU-A100 
