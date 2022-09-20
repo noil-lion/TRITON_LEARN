@@ -23,10 +23,10 @@ Keywords: Medical Image Segmentation;nnUNet;Brain Tumor;TensorRT;Neural Network;
 
 ## nnUNet-[start](./nnUnet_deploy/nnUNet.md)
 
-## 数据集和预处理-[start](DATASET.md)
+## 数据集和预处理-[start](./nnUnet_deploy/DATASET.md)
 
-## 模型训练与验证-[start](Training.md)
+## 模型训练与验证-[start](./nnUnet_deploy/Training.md)
 
-## 模型部署与加速-[start](DEPLOY.md)
+## 模型部署与加速-[start](./nnUnet_deploy/DEPLOY.md)
 
-## 性能测试和分析-[start](Analysis.md)
+## 性能测试和分析-[start](./nnUnet_deploy/Analysis.md)
