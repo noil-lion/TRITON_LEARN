@@ -16,6 +16,15 @@ cd nnUNet
 pip install -e .
 ```
 
+3. 修改本地代码(主要是改掉原数据存储路径)  
+```
+// ./nnunet/dataset_conversion/Task082_BraTS_2020.py
+task_name = ""
+nnUNet_raw_data = ""
+downloaded_data_dir = ""
+downloaded_data_dir_val = ""
+```
+
 __训练脚本pipeline__
 ```
 //pipeline.sh
