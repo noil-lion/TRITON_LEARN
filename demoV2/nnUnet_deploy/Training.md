@@ -1,6 +1,5 @@
 # nnUnet训练-基于BraTs脑肿瘤分割任务
 
-## [数据预处理](https://blog.csdn.net/weixin_39908616/article/details/111696922)
 
 ## [网络训练](https://blog.csdn.net/CabbageRoll/article/details/126352333)
 数据集下载解压后，放置在先前创建的nnUNet_raw文件夹下的nnUnet_raw_data路径下，根据[DATASET](DATASET.md)文档操作，将数据进行格式转换和预处理。nnUNet_cropped_data文件夹（在nnUnet_raw_data问价夹同级）内会自动保存下一步裁剪后的数据集，我们也不需要主动去处理它。
@@ -24,7 +23,7 @@ nnUNet_raw_data = ""
 downloaded_data_dir = ""
 downloaded_data_dir_val = ""
 ```
-
+### [数据预处理](https://github.com/noil-lion/TRITON_LEARN/blob/main/demoV2/nnUnet_deploy/DATASET.md#%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD%E5%92%8C%E9%A2%84%E5%A4%84%E7%90%86)
 __训练脚本pipeline__
 ```
 //pipeline.sh
