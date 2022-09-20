@@ -14,7 +14,7 @@ Docker: 20.10.17;
 OS：20.4.1-Ubuntu;  
 GPU：NVIDIA A100-PCIE-40GB;  
 CPU：Intel(R) Xeon(R) Gold 6330 CPU @ 2.00GHz;  
-Repository:   
+__Repository:__   
           nvcr.io/nvidia/tritonserver-22.04-py3;  
           nvcr.io/nvidia/tritonserver-22.04-py3-sdk;   
           nvcr.io/nvidia/tensorrt-22.04-py3;  
