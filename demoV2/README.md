@@ -19,12 +19,14 @@ __Repository:__
           nvcr.io/nvidia/tritonserver-22.04-py3-sdk;   
           nvcr.io/nvidia/tensorrt-22.04-py3;  
 
+
 __Requirements:__   
 * nnUNet
 * BraTS2020
 * Docker-nvidia
 * TensorRT
 * ONNX
+
 
 __Keywords:__ Medical Image Segmentation;nnUNet;Brain Tumor;TensorRT;Neural Network; Model Deployment & Acceleration.
 
