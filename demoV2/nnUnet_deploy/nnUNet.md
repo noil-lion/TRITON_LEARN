@@ -93,6 +93,6 @@ __工具Apex：https://nvidia.github.io/apex/amp.html/__
 
 
 
-## uuNet安装使用-[参考](https://github.com/MIC-DKFZ/nnUNet)
+## nnUNet安装使用-[参考](https://github.com/MIC-DKFZ/nnUNet)
 
 
