@@ -7,11 +7,11 @@ __挑战与困难__
 肿瘤几乎可以以任何形状和大小出现在不同的位置，对比度差，并且肿瘤的强度值可能与健康的脑组织的强度值重叠，肿瘤异质。  
 
 Based:   
-OS: Ubuntu 20.04;
-EDITOR: VSCode 1.71.1;
+OS: Ubuntu 20.04;  
+EDITOR: VSCode 1.71.1;  
 
 Requirements:   
-* GPU-A100
+* GPU-A100 
 * nnUNet
 * BraTS2020
 * Pytorch
