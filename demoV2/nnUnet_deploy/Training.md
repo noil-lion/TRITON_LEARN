@@ -60,22 +60,23 @@ done
 2022-09-20 10:56:59.127858: lr: 0.01
 using pin_memory on device 0
 ```
-__任务__
+__任务__  
 单个病例数据有四个模态，四个模态预测一个分割任务，分割的目标有3个类别（1-瘤周水肿，2-非增强坏死肿瘤核心，3-增强肿瘤核心）+1个背景（0）
-__输入输出维度__  
+__输入输出维度__    
 * 网络输入  
   295 例样本用于训练  
   73 例样本用于验证   
   网络输入选择3D格式的原始数据输入  
-  batchsize默认是2，也就是每完成一次完整的训练，输入数据是训练集中的两个数据样本用于训练修正网络参数。  
+  batchsize默认是2，也就是每完成一次完整的训练，输入数据是训练集中的两个数据样本用于训练修正网络参数。   
   输入原始数据维度为155x240x240,240x240是x,y维度，155是z维度，150层240*240的断层扫描，在进入网络之前，需要进行一定的预处理程序。原始数据的体素维度是139x170x138,经patch后的patch_size维度是128x128x128,合并四模态，最后的输入维度是1x4x128x128x128  
      
-* 网络输出
+* 网络输出  
   与输入同维度1x4x128x128x128
 
+## 训练可视化
+![var](./pic/train.png)
 
-
-__可能有用的连接__  
+__可能有用的连接__    
 nnUNet代码解读分析：[LINK1](https://blog.csdn.net/weixin_44858814/article/details/124517608?ops_request_misc=&request_id=&biz_id=102&utm_term=sample%20dice%20+%20CE%20loss&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-124517608.142^v47^new_blog_pos_by_title,201^v3^control_1&spm=1018.2226.3001.4187)  
 dice-loss:[LINK2](https://blog.csdn.net/weixin_38324954/article/details/116229663?ops_request_misc=&request_id=&biz_id=102&utm_term=sample%20dice%20+%20CE%20loss&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-2-116229663.142^v47^new_blog_pos_by_title,201^v3^control_1&spm=1018.2226.3001.4187)
-## 测试和可视化
+
