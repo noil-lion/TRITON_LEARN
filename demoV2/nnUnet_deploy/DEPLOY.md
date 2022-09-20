@@ -26,7 +26,7 @@ $ trtexec   --onnx=/work/wuzihao/triton/model_repository/nnUnet_onnx/1/model.onn
             --saveEngine=/work/wuzihao/triton/model_repository/nnUnet_onnx/1/model.engin 
 ```
 
-##  模型部署测试
+#  模型部署测试
 
 1. 配置文件编写
 2. 模型仓库构建
