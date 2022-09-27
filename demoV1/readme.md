@@ -25,18 +25,20 @@ docker run --gpus '"device=1"' --rm -p8000:8000 -p8001:8001 -p8002:8002 -v /full
 ```
 * 启动服务后，测试是否可连接
 ```
-curl -v localhost:40184/v2/health/ready
+curl -v localhost:8000/v2/health/ready
 
 //以下输出连接成功
 > GET /v2/health/ready HTTP/1.1
-> Host: localhost:40184
-> User-Agent: curl/7.68.0
+> Host: localhost:8000
+> User-Agent: curl/7.78.0
 > Accept: */*
 > 
-* Received HTTP/0.9 when not allowed
-
-* Closing connection 0
-curl: (1) Received HTTP/0.9 when not allowed
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 OK
+< Content-Length: 0
+< Content-Type: text/plain
+< 
+* Connection #0 to host localhost left intact
 ```
 
 * 启动客户端，发起推理请求  
