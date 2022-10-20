@@ -48,7 +48,7 @@ Learn Triton to deploy AI model
         <td><a href="https://github.com/noil-lion/TRITON_LEARN/tree/main/demoV1">Start</a></td>    
     </tr>
     <tr>
-        <td>demoV2</td>
+        <td>nnUNetDeploy</td>
         <td><a href="https://github.com/noil-lion/TRITON_LEARN/tree/main/demoV2">Start</a></td>    
     </tr>
     
